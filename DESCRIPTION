@@ -1,0 +1,21 @@
+Package: langscore
+Title: Language Test Score Analyzer
+Version: 0.0.0.9000
+Authors@R: person("Andrew", "Brinton", email = "adbrinton@usf.edu", role = c("aut", "cre"))
+Description: This package reads student language test scores and outputs
+    basic statistics based on category of performance. Designed for a
+    language instructor who works with students on an individual basis or 
+    in small group settings, maintaining a weekly record of each student's
+    performance across core competencies over time in order to tailor
+    instruction to each individual's strengths and weaknesses in
+    preparation for a formal language proficiency test such as the Oral
+    Proficiency Interview (OPI).
+Depends: R (>= 3.1.2)
+Imports: ggplot2
+License: CC0
+LazyData: true
+URL: https://github.com/adbrinton/langscore
+BugReports: https://github.com/adbrinton/langscore/issues
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.1.1
