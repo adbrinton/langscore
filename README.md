@@ -26,7 +26,7 @@ library(langscore)
 
 scores <- read_scores("student_scores.csv")
 scores <- clean_scores(scores)
-one_student <- filter_student(scores, "Alex Rivera")  # use a name from the file
+one_student <- filter_student(scores, "Daniel Rivera")  # use a name from the file
 summary_df <- section_summary(one_student)
 ss <- make_score_set(one_student, summary_df)
 print(ss)
