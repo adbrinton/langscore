@@ -21,6 +21,7 @@ Functions:
 devtools::install_github("adbrinton/langscore")
 
 3. Example:
+```
 library(langscore)
 
 scores <- read_scores("student_scores.csv")
@@ -30,6 +31,7 @@ summary_df <- section_summary(one_student)
 ss <- make_score_set(one_student, summary_df)
 print(ss)
 plot_scores(ss)
+```
 
 4. AI use statement:
 ChatGPT was used to generate sample data for student_scores.csv
